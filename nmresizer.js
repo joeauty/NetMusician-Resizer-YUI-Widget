@@ -107,7 +107,7 @@ YUI.add('gallery-nmresizer', function(Y){
 				}
 			}
 			
-			Y.log('newtabwidth: ' + config.newtabwidth + ' newtabheight: ' + config.newtabheight);
+			//Y.log('newtabwidth: ' + config.newtabwidth + ' newtabheight: ' + config.newtabheight);
 			
 			// return newdiv to viewport
 			Y.one(config.newdiv).setStyles({
@@ -145,6 +145,9 @@ YUI.add('gallery-nmresizer', function(Y){
 						width:'auto',
 						height:'auto'
 					});
+				}
+				if (config.onEnd) {
+					config.onEnd(config);
 				}
 			}
 			else {
