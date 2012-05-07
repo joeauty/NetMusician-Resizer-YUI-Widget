@@ -207,4 +207,4 @@ YUI.add('gallery-nmresizer', function(Y){
 		
 	});
     
-}, '0.1', {requires: ['base-build', 'widget', 'node', 'transition']});
+}, 'gallery-2012.05.02-20-10', {requires: ['base-build', 'widget', 'node', 'transition']});
