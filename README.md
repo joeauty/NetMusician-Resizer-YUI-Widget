@@ -11,7 +11,9 @@ In addition to accounting for these considerations, this widget provides the fol
 
 - optional callbacks before and after the start/end of the animation
 - offset values built into width and height calculations
-- options to constrain the width or height
+- options to constrain the width or height (i.e. "maxWidth/maxHeight" options)
+- options to only resize the div's width or height (i.e. "restrainWidth/restrainHeight" options)
+- options to resize multiple elements simultaneously by providing a CSS class ("resizeclass") rather than CSS ID ("resizediv")
 
 Usage
 -----
